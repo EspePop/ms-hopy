@@ -160,17 +160,16 @@ footer{
 .footer-info{
     padding-top: 2.5em;
     background-color: #d28764;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    color: #fff;
-    height: 300px;    
+    color: #fff;  
     display: grid;
     grid-template-columns: 2fr 2.5fr 1.5fr 1.5fr;
     grid-template-areas: 
-      "f-logo   f-contacto    f-menu    f-legal"
-      "f-logo   f-contacto    f-menu    f-legal"
-      "f-logo   f-contacto    f-menu    f-legal"
-      "f-txt    f-txt         f-txt     f-txt";
+      "f-logo   f-contacto   f-menu   f-legal"
+      "f-logo   f-contacto   f-menu   f-legal"
+      "f-logo   f-contacto   f-menu   f-legal"
+      "f-txt    f-txt        f-txt    f-txt";
 }                 
 .f-logo{
     grid-area: f-logo;

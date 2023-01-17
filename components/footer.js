@@ -1,7 +1,6 @@
-import Link from "next/link";
-import { AiFillYoutube, AiFillInstagram} from "react-icons/ai" ;  
-import { FaEnvelopeOpenText, FaFacebookF } from "react-icons/fa";
-import { FiClock } from "react-icons/fi";
+import Link from "next/link"
+import { AiFillYoutube, AiFillInstagram} from "react-icons/ai"  
+import { FaEnvelopeOpenText, FaFacebookF } from "react-icons/fa"
 
 export default function Footer(){
     return(
@@ -26,12 +25,11 @@ export default function Footer(){
             <div className="footer-info">
                 <div className="f-logo">
                     <Link alt="Ms. Hopy" href="/" >
-                        <span className="f-link"> <img src="images/" className="logo-footer"/></span>
+                        <span className="f-link"> <img src="images/logos/escape_room_bodas_logo_blanco.svg" className="logo-footer"/></span>
                     </Link>
                 </div>
                 <div className="f-contacto">            
                      <span><span alt="Ms. Hopy email" href="mailto:missyhope82@gmail.com" className="f-link"><span className="f-icon"> <FaEnvelopeOpenText/></span> missyhope82@gmail.com </span> </span>
-                     <span><span alt="Ms. Hopy horario" href="#0" className="f-link"><span className="f-icon"> <FiClock/></span> L - V {' '} 09:00 – 19:00h </span></span>
                 </div>
                 
                 <div className="f-txt">
